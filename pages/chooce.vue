@@ -15,7 +15,7 @@
         <div class="row">
           <div class="col-md-4"></div>
           <div class="col-md-4">
-       <!--   <div class="row">
+     <div class="row">
               <div class="col-md-2" style="position: relative">
                 <div class="answer-element" style="position: absolute; height: 30px;bottom: -145px;">
                   <input type="radio" name="gender" value="A" id="A" />
@@ -53,45 +53,8 @@
                 </div>
               </div>
             </div>-->
-          <div class="row">
-              <div class="col-md-2" style="position: relative">
-                <div class="answer-element col-md-2" style="position: absolute; height: 30px;bottom: -145px;">
-                  <input type="radio" name="gender" value="A" id="A" />
-                  <label for="A"></label>
-                </div>
-              </div>
-              <div class="col-md-2" style="position: relative">
-                <div class="answer-element" style="position: absolute; height: 50px;bottom: -145px;">
-                  <input type="radio" name="gender" value="B" id="B" />
-                  <label for="B"></label>
-                </div>
-              </div>
-              <div class="col-md-2" style="position: relative">
-                <div class="answer-element" style="position: absolute; height: 70px;bottom: -145px;">
-                  <input type="radio" name="gender" value="C" id="C" />
-                  <label for="C"></label>
-                </div>
-              </div>
-              <div class="col-md-2" style="position: relative">
-                <div class="answer-element" style="position: absolute; height: 90px;bottom: -145px;">
-                  <input type="radio" name="gender" value="D" id="D" />
-                  <label for="D"></label>
-                </div>
-              </div>
-              <div class="col-md-2" style="position: relative">
-                <div class="answer-element" style="position: absolute; height: 110px;bottom: -145px;">
-                  <input type="radio" name="gender" value="E" id="E" />
-                  <label for="E"></label>
-                </div>
-              </div>
-              <div class="col-md-2" style="position: relative">
-                <div class="answer-element" style="position: absolute; height: 130px;bottom: -145px;">
-                  <input type="radio" name="gender" value="F" id="F" />
-                  <label for="F"></label>
-                </div>
-              </div>
-            </div>
           </div>
+
           <div class="col-md-4"></div>
         </div>
       </div>
