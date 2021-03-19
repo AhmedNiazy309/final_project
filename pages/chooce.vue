@@ -60,37 +60,39 @@
       </div>-->
       <div class="chartchoose">
       <div class="row">
-        <div class="answer-element col" style=" transform: scale(.2 , -1.5); position: relative;top: 182px;">
+        <div class="answer-element col A" style=" transform: scale(.2 , -1.5); position: relative;top: 182px;">
                   <input type="radio" name="gender" value="A" id="A" />
                   <label for="A"></label>
                 </div>
                 
-        <div class="answer-element col" style="transform: scale(.2 , -2.2);position: relative;top: 164px;">
+        <div class="answer-element col B" style="transform: scale(.2 , -2.2);position: relative;top: 164px;">
                   <input type="radio" name="gender" value="B" id="B" />
                   <label for="B"></label>
                 </div>
                                 
-        <div class="answer-element col" style="transform: scale(.2 , -2.9);position: relative;top: 147px;">
+        <div class="answer-element col C" style="transform: scale(.2 , -2.9);position: relative;top: 147px;">
                   <input type="radio" name="gender" value="C" id="C" />
                   <label for="C"></label>
                 </div>
                                 
-        <div class="answer-element col" style="transform: scale(.2 , -3.6);position: relative;top: 129px;">
+        <div class="answer-element col D" style="transform: scale(.2 , -3.6);position: relative;top: 129px;">
                   <input type="radio" name="gender" value="D" id="D" />
                   <label for="D"></label>
                 </div>
                                 
-        <div class="answer-element col" style="transform: scale(.2 , -4.1);position: relative;top: 116px;">
+        <div class="answer-element col E" style="transform: scale(.2 , -4.1);position: relative;top: 116px;">
                   <input type="radio" name="gender" value="E" id="E" />
                   <label for="E"></label>
                 </div>
                                 
-        <div class="answer-element col" style="transform: scale(.2 , -4.8);position: relative;top: 99px;">
+        <div class="answer-element col F" style="transform: scale(.2 , -4.8);position: relative;top: 99px;">
                   <input type="radio" name="gender" value="F" id="F" />
                   <label for="F"></label>
                 </div>
                                 
       </div>
+      <p id="demo"></p>
+      <NuxtLink to="/des" class="next">NEXT</NuxtLink>
       </div>
     </div>
   </div>
@@ -103,7 +105,31 @@ $('body').on('click', '.answer-element input', function () {
    console.log(allAnswers);
   allAnswers.removeClass('selected-answer')
   selectedAnswer.addClass('selected-answer')
-})
+});
+$('body').on('click', '.A', function () {
+    var show = document.getElementById("demo");
+    show.innerHTML = "I easily get out of breath while walking up the stairs.";
+});
+$('body').on('click', '.B', function () {
+    var show = document.getElementById("demo");
+    show.innerHTML = "My heartbeat really races after doing several jumping jacks.";
+});
+$('body').on('click', '.C', function () {
+    var show = document.getElementById("demo");
+    show.innerHTML = "Sometimes I do quick workouts to get my body moving.";
+});
+$('body').on('click', '.D', function () {
+    var show = document.getElementById("demo");
+    show.innerHTML = "I exercise regularly, at least 1-2 times a week.  ";
+});
+$('body').on('click', '.E', function () {
+    var show = document.getElementById("demo");
+    show.innerHTML = "Fitness is an essential part of my life.";
+});
+$('body').on('click', '.F', function () {
+    var show = document.getElementById("demo");
+    show.innerHTML = "Fitness is an essential part of my life.";
+});
 
 export default {}
 </script>
@@ -163,5 +189,25 @@ input[type='radio']:checked > .answer-element {
 }
 .offset-1 {
     margin-left: 1.333333% !important;
+}
+#demo{
+      position: relative;
+    margin-top: 20%;
+    font-size: 20px;
+    font-weight: 500;
+}
+.next{
+      text-align: center;
+    background-color: #5767A3;
+    padding: 2%;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 57px;
+    font-weight: 900;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 35% 2%;
 }
 </style>
