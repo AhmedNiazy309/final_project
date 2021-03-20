@@ -111,6 +111,8 @@ background-color: #fff;
     width: 165px;
     padding: 7%;
     text-align: center;
+        margin: 3% auto 2%;
+
     }
 .breakone .cirlce h3{
         color: #5767A3;
