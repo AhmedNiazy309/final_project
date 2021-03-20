@@ -47,7 +47,7 @@ targeted support for you.</p>
             </p>
             </div>
         </div>
-    <NuxtLink to="/des" class="next">NEXT</NuxtLink>
+    <NuxtLink to="/menu" class="next">NEXT</NuxtLink>
 
     </div>
     </div>

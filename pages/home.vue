@@ -5,7 +5,6 @@
         <NuxtLink to="/des" class="next">Yoga</NuxtLink>
         <NuxtLink to="/des" class="next">Cardio</NuxtLink>
         <NuxtLink to="/des" class="next">Gymnastatic</NuxtLink>
-
     </div>
     </div>
 </template>
