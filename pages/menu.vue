@@ -2,8 +2,8 @@
 <div>
 <div class="bigmenu m-auto text-center d-block">
     <NuxtLink class="menu" to="/yuga">Yoga</NuxtLink>
-    <NuxtLink class="menu" to="car">Cardio</NuxtLink>
-    <NuxtLink class="menu" to="gym">Gymnastics</NuxtLink>
+    <NuxtLink class="menu" to="/car">Cardio</NuxtLink>
+    <NuxtLink class="menu" to="/gym">Gymnastics</NuxtLink>
 </div>
 </div>
 </template>
